@@ -1,0 +1,27 @@
+remote_theme: marella/jekyll-theme-documentation
+
+permalink: pretty
+baseurl: "/mscf-ml-postbacc"
+title: "ML Postbacc Program"
+description: "Machine Learning on HPC at the Morehouse Supercomputing Facility"
+
+nav:
+- Schedule:
+  - Weeks 1-3 Python Bootcamp: ./Schedule/weeks-1-3
+  - Weeks 4-9 ML Training: ./Schedule/weeks-4-9
+  - Weeks 10-12 Capstone: ./Schedule/weeks-10-12
+- Python Bootcamp (Weeks 1-3):
+  - Python Fundamentals: ./01-Python-Bootcamp/01-python-fundamentals
+  - Data Analysis: ./01-Python-Bootcamp/02-data-analysis
+  - Packaging, Git, and PyPI: ./01-Python-Bootcamp/03-packaging-git
+  - TACC and HPC: ./01-Python-Bootcamp/04-tacc-hpc
+- Machine Learning (Weeks 4-9):
+  - Introduction to ML: ./02-ML/01-intro-to-ml
+  - Supervised Learning: ./02-ML/02-supervised-learning
+  - Unsupervised Learning: ./02-ML/03-unsupervised-learning
+  - Evaluation and Optimization: ./02-ML/04-evaluation-optimization
+  - Deep Learning: ./02-ML/05-deep-learning
+  - Model Deployment: ./02-ML/06-deployment
+- Capstone (Weeks 10-12):
+  - Capstone Overview: ./03-Capstone/01-overview
+  - Poster Requirements: ./03-Capstone/02-poster-requirements

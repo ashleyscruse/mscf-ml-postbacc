@@ -1,24 +1,37 @@
 # ML Postbacc Program: Machine Learning on HPC
 
-A 12-week summer program at the Morehouse Supercomputing Facility (MSCF) that takes post-baccalaureate students from Python fundamentals to deploying machine learning models on production HPC, finishing with an individual capstone project and research poster.
+A 9-week machine learning program (Weeks 4 to 12 of the MSCF summer postbacc cohort) that takes students from the machine learning workflow to deploying models on production HPC, finishing with an individual capstone project and research poster.
 
 ## Program at a Glance
 
 | | |
 |---|---|
-| **Dates** | June 1 to August 21, 2026 |
+| **Dates** | June 22 to August 21, 2026 |
 | **Format** | Mon/Wed virtual, Tue/Thu in-person, Fri office hours |
 | **Hours** | 10:00 AM to 4:00 PM (lunch 12:00 to 1:00) |
 | **HPC system** | Vista (TACC) |
 | **Capstone** | Individual projects (no teams) |
 
-## The Arc
+## Prerequisite
 
-The program runs in three phases. Everyone starts at the same Python and data baseline, moves into the full machine learning workflow, then applies it to an individual capstone.
+The first three weeks of the cohort are a **Python Bootcamp**, delivered separately, covering Python, data analysis, and TACC/HPC fundamentals. Students arrive at Week 4 already able to write Python, work with data in Pandas and NumPy, and log in to Vista.
+
+## How We Work
+
+We do not work out of notebooks on a laptop. From the start we set up a real development workflow and use it all summer:
+
+- **An editor with AI built in:** VS Code, Cursor, or Antigravity
+- **Git from day one:** every project lives in a repository
+- **GitHub CLI authenticated** (`gh auth login`) so pushing and pulling just works
+- **Authenticated access to HPC:** log in to Vista and run real jobs
+- **We work out of repos for the rest of the summer.** Your code, your experiments, and your capstone all live in version control, on your laptop and on Vista.
+
+This is the same way we work in the NAIRR Research Accelerator: set the workspace up once, then let the tools do the heavy lifting.
+
+## The Arc
 
 | Phase | Weeks | Dates | Focus |
 |---|---|---|---|
-| **Python Bootcamp** | 1 to 3 | Jun 1 to Jun 19 | Python, data analysis, packaging, and TACC/HPC onboarding |
 | **ML Training** | 4 to 9 | Jun 22 to Jul 31 | Supervised and unsupervised learning, evaluation, deep learning, deployment |
 | **Capstone** | 10 to 12 | Aug 3 to Aug 21 | Individual project from data to model to poster presentation |
 
@@ -26,9 +39,6 @@ The program runs in three phases. Everyone starts at the same Python and data ba
 
 | Week | Theme | Milestone |
 |---|---|---|
-| 1 | Orientation, Python fundamentals, data intro | |
-| 2 | Data analysis, functions, packaging | Publish a package to PyPI |
-| 3 | TACC / HPC: Vista, Slurm, Jupyter on compute nodes | First job submitted on Vista |
 | 4 | Introduction to machine learning | Capstone preview |
 | 5 | Supervised learning | Hackathon: build best classifier |
 | 6 | Unsupervised learning + project overview | Capstone project overview |
@@ -41,23 +51,18 @@ The program runs in three phases. Everyone starts at the same Python and data ba
 
 Full day-by-day schedules:
 
-- [Weeks 1 to 3: Python Bootcamp](./Schedule/weeks-1-3)
 - [Weeks 4 to 9: ML Training](./Schedule/weeks-4-9)
 - [Weeks 10 to 12: Capstone](./Schedule/weeks-10-12)
 
 ## What You Will Learn
-
-**Python and data analysis.** Python fundamentals, NumPy, Pandas, and visualization with Matplotlib and Seaborn, plus APIs and JSON.
-
-**Engineering practice.** Python packaging, Git and GitHub, and publishing your own package to PyPI.
-
-**HPC on Vista.** TACC accounts, SSH and MFA, the Vista filesystem, running Jupyter on compute nodes, and submitting and monitoring jobs with Slurm.
 
 **Machine learning.** The full scikit-learn workflow: classification and regression, clustering and dimensionality reduction, cross-validation, and hyperparameter tuning.
 
 **Deep learning.** Neural network fundamentals, TensorFlow/Keras, CNNs for image classification, and an introduction to PyTorch, run on Vista GPUs.
 
 **Deployment.** Saving and serving models with Flask and FastAPI, containerizing with Docker, and deploying to the cloud.
+
+**ML on HPC.** Running training and tuning jobs on Vista, using GPUs for deep learning, and parallelizing hyperparameter search.
 
 ## Hands-On Format
 
@@ -68,14 +73,15 @@ The ML phase is built around active work, not lecture:
 - **Breakout challenges**, bug hunts, code reviews, and dataset stations
 - **Capstone**: an individual project taken from data through model, evaluation, deployment, and a research poster
 
-## What You Will Need
+## Setup Checklist
 
-You can start with a laptop and a willingness to work. The first week covers local setup (Python, Anaconda, Jupyter), and TACC accounts are created together in Week 3.
+Have these ready so we can start working out of repos right away:
 
-- [ ] A laptop you can install software on
-- [ ] [Python](https://www.python.org/) and [Anaconda](https://www.anaconda.com/download) (set up Week 1)
-- [ ] [Jupyter Notebook](https://jupyter.org/) (set up Week 1)
-- [ ] A [GitHub account](https://github.com) (used from Week 2)
+- [ ] Install an editor: [VS Code](https://code.visualstudio.com/), [Cursor](https://cursor.com), or [Antigravity](https://antigravity.google/)
+- [ ] Install [Git](https://git-scm.com/downloads)
+- [ ] Create a [GitHub account](https://github.com) and authenticate the [GitHub CLI](https://cli.github.com/) (`gh auth login`)
+- [ ] Install [Claude Code](https://claude.ai/code) (or your AI coding tool of choice)
+- [ ] A [TACC account](https://portal.tacc.utexas.edu/account-request) with MFA, and confirm you can log in to Vista
 
 ## Resources
 

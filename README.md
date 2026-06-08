@@ -17,7 +17,7 @@ A hands-on machine learning program for post-baccalaureate students. The first t
 
 We set up a real development workflow on day one and use it all summer:
 
-- An editor with AI built in: VS Code, Cursor, or Antigravity
+- An editor with AI built in: VS Code or Antigravity
 - Git from day one, with the GitHub CLI authenticated (`gh auth login`)
 - Authenticated access to Vista (TACC) for running real jobs
 - Everything lives in Git repositories for the rest of the summer

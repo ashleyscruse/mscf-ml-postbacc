@@ -20,7 +20,7 @@ The first three weeks of the cohort are a **Python Bootcamp**, delivered separat
 
 We do not work out of notebooks on a laptop. From the start we set up a real development workflow and use it all summer:
 
-- **An editor with AI built in:** VS Code, Cursor, or Antigravity
+- **An editor with AI built in:** VS Code or Antigravity
 - **Git from day one:** every project lives in a repository
 - **GitHub CLI authenticated** (`gh auth login`) so pushing and pulling just works
 - **Authenticated access to HPC:** log in to Vista and run real jobs
@@ -77,7 +77,7 @@ The ML phase is built around active work, not lecture:
 
 Have these ready so we can start working out of repos right away:
 
-- [ ] Install an editor: [VS Code](https://code.visualstudio.com/), [Cursor](https://cursor.com), or [Antigravity](https://antigravity.google/)
+- [ ] Install an editor: [VS Code](https://code.visualstudio.com/) or [Antigravity](https://antigravity.google/)
 - [ ] Install [Git](https://git-scm.com/downloads)
 - [ ] Create a [GitHub account](https://github.com) and authenticate the [GitHub CLI](https://cli.github.com/) (`gh auth login`)
 - [ ] Install [Claude Code](https://claude.ai/code) (or your AI coding tool of choice)

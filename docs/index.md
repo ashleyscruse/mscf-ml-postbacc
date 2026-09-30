@@ -1,6 +1,6 @@
 # ML Postbacc Program: Machine Learning on HPC
 
-A 9-week machine learning program (Weeks 4 to 12 of the MSCF summer postbacc cohort) that takes students from the machine learning workflow to deploying models on production HPC, finishing with an individual capstone project and research poster.
+A 9-week machine learning program (Weeks 4 to 12 of the MSF summer postbacc cohort) that takes students from the machine learning workflow to deploying models on production HPC, finishing with an individual capstone project and research poster.
 
 ## Program at a Glance
 
@@ -87,7 +87,7 @@ Have these ready so we can start working out of repos right away:
 
 - [NAIRR Pilot](https://nairrpilot.org/) (capstone datasets and compute)
 - [TACC Vista User Guide](https://docs.tacc.utexas.edu/hpc/vista/)
-- [Launching Jupyter on Vista (MSCF)](https://morehouse-supercomputing.github.io/jupyter-on-tapis/)
+- [Launching Jupyter on Vista (MSF)](https://morehouse-supercomputing.github.io/jupyter-on-tapis/)
 
 ## Author
 

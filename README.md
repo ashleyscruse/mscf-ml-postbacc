@@ -1,6 +1,6 @@
 # ML Postbacc Program: Machine Learning on HPC
 
-A 9-week machine learning program (Weeks 4 to 12 of the MSCF summer postbacc cohort) that takes students from the machine learning workflow to deploying models on production HPC, finishing with an individual capstone project and research poster.
+A 9-week machine learning program (Weeks 4 to 12 of the MSF summer postbacc cohort) that takes students from the machine learning workflow to deploying models on production HPC, finishing with an individual capstone project and research poster.
 
 > The program does not stop at ML concepts. Students run training jobs on Vista GPUs, containerize models, and present capstone results as a research poster.
 
